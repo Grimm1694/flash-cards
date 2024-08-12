@@ -67,9 +67,7 @@ const Flashcard: React.FC = () => {
 
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center bg-cover bg-no-repeat">
-      <p className="text-xs text-orange-400 text-center mb-[10px]">
-           Click on a card to edit or delete it, or add new flashcards.
-      </p>
+      
       <div className="stack">
         {flashcards.map((flashcard, index) => (
           <div

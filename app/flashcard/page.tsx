@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className="bg-white pt-[30px]  w-full h-full">
       <p className="text-xs text-orange-400 text-center mb-[10px]">
-           Click on a card to edit or delete it, or add new flashcards.
+           Click on a card to reveal Answer
       </p>
       <div className="flex flex-col items-end w-full">
       <Link href="/read">
